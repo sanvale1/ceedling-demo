@@ -38,4 +38,14 @@ void test_odd_or_even(void)
 
    ), (UNITY_UINT)(19), UNITY_DISPLAY_STYLE_INT);
 
+
+
+    ans = odd_or_even(3);
+
+    UnityAssertEqualNumber((UNITY_INT)((0)), (UNITY_INT)((ans)), (
+
+   ((void *)0)
+
+   ), (UNITY_UINT)(22), UNITY_DISPLAY_STYLE_INT);
+
 }
