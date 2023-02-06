@@ -10,7 +10,7 @@ char* GlobalOrderError;
 /*=======External Functions This Runner Calls=====*/
 extern void setUp(void);
 extern void tearDown(void);
-extern void test_sample_NeedToImplement(void);
+extern void test_odd_or_even(void);
 
 
 /*=======Mock Management=====*/
@@ -75,7 +75,7 @@ static void run_test(UnityTestFunction func, const char* name, UNITY_LINE_TYPE l
 int main(void)
 {
   UnityBegin("test_sample.c");
-  run_test(test_sample_NeedToImplement, "test_sample_NeedToImplement", 15);
+  run_test(test_odd_or_even, "test_odd_or_even", 16);
 
   return UnityEnd();
 }

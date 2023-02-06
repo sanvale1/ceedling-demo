@@ -2,17 +2,17 @@
 :source:
   :path: test
   :file: test_sample.c
-:successes: []
-:failures: []
-:ignores:
-- :test: test_sample_NeedToImplement
-  :line: 17
-  :message: Need to Implement sample
+:successes:
+- :test: test_odd_or_even
+  :line: 16
+  :message: ''
   :unity_test_time: 0
+:failures: []
+:ignores: []
 :counts:
   :total: 1
-  :passed: 0
+  :passed: 1
   :failed: 0
-  :ignored: 1
+  :ignored: 0
 :stdout: []
-:time: 0.9997418000129983
+:time: 1.4773473999812268

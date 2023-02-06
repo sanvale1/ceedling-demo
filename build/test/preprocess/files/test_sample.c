@@ -12,6 +12,8 @@ void setUp(void)
 
 {
 
+
+
 }
 
 
@@ -24,10 +26,16 @@ void tearDown(void)
 
 
 
-void test_sample_NeedToImplement(void)
+void test_odd_or_even(void)
 
 {
 
-    UnityIgnore( (("Need to Implement sample")), (UNITY_UINT)(17));
+    int ans = odd_or_even(4);
+
+    UnityAssertEqualNumber((UNITY_INT)((1)), (UNITY_INT)((ans)), (
+
+   ((void *)0)
+
+   ), (UNITY_UINT)(19), UNITY_DISPLAY_STYLE_INT);
 
 }
